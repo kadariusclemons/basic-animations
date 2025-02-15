@@ -1,0 +1,36 @@
+@keyframes FadeIn {
+    from {
+        color: white;
+    }
+to {color: black;}
+}
+.banner {
+    font: sans-serif, 3em;
+    text-align: center;
+    padding: 20px;
+    background-color: lightcyan;
+    animation: FadeIn 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes Grow {
+    from {
+        font-size: 1em;
+    }
+to {
+    font-size: 3em;
+    }
+}
+@keyframes Slide {
+    from {
+        left: 0;
+    }
+to { left: 100%}
+}
+#emoji {
+    position: absolute;
+    top: 50;
+    left: 0;
+    transform: translateY(-50%);
+    animation: Grow 1s, Slide 3s;
+    animation-iteration-count: infinite;
+}
