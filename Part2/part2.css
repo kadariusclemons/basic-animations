@@ -1,0 +1,14 @@
+@keyframes Grow {
+    from {
+        font-size: 1em;
+    }
+to {
+    font-size: 3em;
+    }
+}
+#emoji {
+    position: absolute;
+    left: 0;
+    animation: Grow 1s;
+    animation-iteration-count: infinite;
+}

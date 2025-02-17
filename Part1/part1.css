@@ -1,0 +1,14 @@
+@keyframes FadeIn {
+    from {
+        color: white;
+    }
+to {color: black;}
+}
+.banner {
+    font: sans-serif, 3em;
+    text-align: center;
+    padding: 20px;
+    background-color: lightcyan;
+    animation: FadeIn 1s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,11 @@
+@keyframes slide {
+    from {
+        left: 0%;
+    }
+     to { left: 100%}
+}
+
+#emoji {
+    animation: slide 3s infinite;
+    position: absolute;
+}
